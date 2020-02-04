@@ -1,6 +1,6 @@
 name: 'Publish Gatsby Site supporting Contentful'
 author: 'Zhiyuan Zheng'
-description: 'Publish Gatsby generated site to GitHub Pages using https://www.npmjs.com/package/gh-pages, supporting https://www.contentful.com/'
+description: 'Publish Gatsby generated site to GitHub Pages using gh-pages, supporting Contentful'
 branding:
   icon: 'cpu'
   color: 'white'

@@ -24,6 +24,9 @@ inputs:
   contentfulToken:
     description: 'Token of Contentful'
     required: true
+  isContentfulPublish:
+    description: 'If the publish trigger comes from contentful or not'
+    default: '0'
 
 runs:
   using: 'docker'
@@ -35,3 +38,4 @@ runs:
     - ${{ inputs.email }}
     - ${{ inputs.contentfulSpace }}
     - ${{ inputs.contentfulToken }}
+    - ${{ inputs.isContentfulPublish }}
